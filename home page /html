@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Clothing Website</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header style="background-color: pink; padding: 20px;">
+        <h1>Welcome to My Clothing Website</h1>
+    </header>
+    <div class="carousel">
+        <img src="path/to/image1.jpg" alt="Image 1">
+        <img src="path/to/image2.jpg" alt="Image 2">
+        <img src="path/to/image3.jpg" alt="Image 3">
+    </div>
+    <main>
+        <button onclick="location.href='shopping.html'">Shop Now</button>
+        <button onclick="location.href='#about'">About Us</button>
+        <button onclick="location.href='#contact'">Contact</button>
+    </main>
+
+    <footer>
+      <p>Follow us on social media!</p>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

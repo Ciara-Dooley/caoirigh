@@ -1,0 +1,62 @@
+/* Shopping Gallery Styles */
+.container {
+    display: flex; /* Added to create a flex container */
+}
+
+.left-image {
+    flex: 1; /* Allow left image to take up half the space */
+    padding: 20px; /* Add padding around the image */
+}
+
+.gallery {
+    flex: 1; /* Allow gallery to take up half the space */
+    display: grid; /* Use grid layout for the gallery */
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Padding around the gallery */
+    justify-items: center; /* Center items in the grid */
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: pink; /* Header color */
+    color: #fff;
+    height: 1in; /* Set height to 1 inch */
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center; /* Center items in the grid */
+    float: right; /* Align gallery to the right */
+}
+
+.box {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: pink; /* Changed footer color to pink */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
