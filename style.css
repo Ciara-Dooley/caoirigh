@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    border: 2px solid #333;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.background {
+    height: 100vh;
+    background-image: url('image1.jpg'); /* Replace with your image URLs */
+    background-size: cover;
+    background-position: center;
+    animation: backgroundRotate 15s infinite;
+}
+
+@keyframes backgroundRotate {
+    0% { background-image: url('image1.jpg'); }
+    33% { background-image: url('image2.jpg'); } /* Replace with your image URLs */
+    66% { background-image: url('image3.jpg'); } /* Replace with your image URLs */
+    100% { background-image: url('image1.jpg'); }
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+    padding-top: 40%;
+}
+
+.buttons {
+    display: none; /* Initially hidden */
+    text-align: center;
+    margin: 20px 0;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
